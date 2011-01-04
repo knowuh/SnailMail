@@ -1,0 +1,52 @@
+<HTML>
+
+<HEAD><TITLE>Snail Mail READ ME</TITLE></HEAD>
+
+<BODY>
+
+<h1>Snail Mail READ ME</h1>
+
+<h2>Installation</h2>
+
+To install, simply drag the application icon to your "Applications" folder, or to where ever you wish to install it.
+
+<h2>Registration and Licensing</h2>
+
+Please read the enclosed license (UNDERWARE.html) for the rather liberal terms and conditions.
+<p>
+To register the application, please run the application and see the information in the "Registration..." command in the "Snail Mail" menu.
+
+<h2>User Guide and Online Help</h2>
+
+A rudimentary, but informative user guide is available using the standard online help system - choose "Snail Mail User Guide" from the "Help" menu while using Snail Mail.
+
+<h2>Bug Reporting and Feedback</h2>
+
+Before reporting bugs, please check the known issues list below.
+<p>
+Email bug reports or feedback to nixanz@nixanz.com.
+
+<h2>Known Issues</h2>
+
+<ul>
+<li>Changing selection of "to" address doesn't update envelope when another address for the same person record was previously selected.
+	<ul>
+	<li>Work around is to select an address for another person then select the address original person.
+	<li>This is a bug in Apple's Address Book API in Mac OS X 10.3, and is fixed in Mac OS X 10.4 (Tiger).
+	</ul>
+<li>Searching only works for begining of names or begining of Town, not for any other fields or for characters elsewhere in names/towns.
+	<ul>
+	<li>The searching is using Apple's API which is not modifiable within the view being used.
+	<li>A more advanced search algorithm is possible using part of Apple's API, but cannot be done with the search field attached to the address list view (and if done from another search field, results cannot be placed in the Apple API's address list view).
+	</ul>
+<li>When searching causes the address selection to change, the envelope is not updated.
+	<ul>
+	<li>The work around is to click another person, then click back on the address desired.
+	<li>If there is only one person in the search results, the above work around cannot be used.  Clicking the single person/address does not help (Apple also provides no way to detect a single click on a record with this API view).
+	<li>This is a bug in Apple's Address Book API in Mac OS X 10.3, and is fixed in Mac OS X 10.4 (Tiger).
+	</ul>
+</ul>
+
+</BODY>
+
+</HTML>

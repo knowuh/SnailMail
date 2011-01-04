@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Snail Mail' target in the 'Snail Mail' project
+// as well as for all source files of the 'SnailMailPlugin' target in the 'Snail Mail' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import <AddressBook/AddressBook.h>
+#endif

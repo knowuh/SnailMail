@@ -1,0 +1,100 @@
+<html>
+<head>
+   <title>Snail Mail - Change Log</title>
+</head>
+<body bgcolor="#ccccff">
+
+<center>
+<h1>
+<a href="http://nixanz.com/">*NIXANZ</a> Snail Mail</h1></center>
+<h2>
+Change Log</h2>
+<hr>
+<h3>1.8</h3>
+<ul>
+<li>Records for companies will now match person name as well as company name when searching (as for records for people).
+<li>Unified titlebar/toolbar.
+</ul>
+<h3>1.7</h3>
+<ul>
+<li>Typing in the "Search" field now searches Company, Job Title and Nickname (in addition to Name and Address).  These items can also be viewed in the person table instead of the Address, if desired.
+</ul>
+<h3>1.6</h3>
+<ul>
+<li>Changing envelope profiles correctly updates return address type (address book, manual, none).
+<li>Fixed a crash-on-launch bug introduced in version 1.5 for users who had no postal address in the Address Book card (or no Address Book "My Card").
+</ul>
+<h3>1.5</h3>
+<ul>
+<li>Added preference to hide delivery country only if same as return address country (as has been available for return address in earlier versions).
+<li>Added preference to swap family name and given name, to suit broader cultural user base.
+<li>Added option to remove return address completely with a single step (no longer a two step process of selecting "Manual" return address, then manually deleting return address content).
+<li>After start up, the search field has the keyboard focus, so that no pointing or clicking is required to beging typing a search term (this feature went missing several releases ago).
+</ul>
+<h3>1.4</h3>
+<ul>
+<li>Fixed two printing bugs where printing failed in some circumstances (eg, after cancelling one print job, subsequent print jobs would fail).
+</ul>
+<h3>1.2</h3>
+<ul>
+<li>The "Manual" return address setting is now set on a per-envelope-profile basis.
+</ul>
+<h3>1.1</h3>
+<ul>
+<li>Added preference to print an envelope for persons who don't have addresses that match the specified label (eg, "Home" or "Work"), when using the "Print Selected Envelopes" command for a specific label (Home/Work/etc) only.
+<li>Reduced the size of the download distribution.
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Print Selected Envelopes command can now be restricted to printing only addresses with a particular label (eg, only "Home" addresses or only "Work" addresses).  The label to use is set in Preferences (per-envelope-profile).
+<li>Items in the Return Address pop-up are now sorted alphabetically, which is particularly useful when configured to include all records in the address book.
+<li>The current envelope profile now correctly remembers the last used print settings (including printer) and these settings are correctly used when printing without a dialogue with the Print toolbar item.
+<li>Updated online help.
+</ul>
+<h3>0.6.8</h3>
+<ul>
+<li>Fixed a bug where in the unlikely case of an Address Book record having two identical addresses, and a third address which was different, the wrong return address could be placed on the envelope.
+</ul>
+<h3>0.6.7</h3>
+<ul>
+<li>Added theoretical Intel Mac OS X compatibility (now distributed as a "universal" application that runs on both PowerPC and Intel versions of Mac OS X).  I don't have access to a Mac OS X Intel machine, so I'd be interested to hear from any users on the results of this.
+<li>Re-introduced the registration toolbar item.  This was previously removed when Mac OS X 10.4 was released as the Address Book now handles envelope printing directly, and the number of new Snail Mail users dropped substantially.  However, the number of new users is on the rise again with many users opting to register.
+</ul>
+<h3>0.6.6</h3>
+<ul>
+<li>All preferences and settings that affect the look of an envelope are now set on a per-envelope-profile basis.  Eg, envelope background, field hiding, return address, can all be different for each different envelope profile.
+<li>Improved PayPal integration.
+</ul>
+<h3>0.6.4</h3>
+<ul>
+<li>No longer prints rulers on individual envelope print outs if they are visible in the window at time of printing.
+</ul>
+<h3>0.6.3</h3>
+<ul>
+<li>Fixed French localisation.
+<li>NO CHANGES for English or other locales.
+</ul>
+<h3>0.6.1</h3>
+<ul>
+<li>Settings now change correctly when the envelope profile is changed (ie, text attributes, field hiding, prefix/suffix and envelope background text/graphics, paper size and margins are all configured on a per-profile basis).
+<li>Changed command names "Envelope Page Setup" to "Page Setup" and changed "Envelope Setup" to "Profile" in the UI to avoid confusion.
+<li>Fixed a problem with deleting the currently active profile.
+<li>Fixed problem with some preferences (eg, field hiding) being ignored in German localisation.
+</ul>
+<h3>0.6</h3>
+<ul>
+<li>Arbitrary text and graphics can now be placed anywhere on the envelope, not just in the address text areas, simply by typing, copy/paste and drag/drop.
+<li>Barcode is now positioned at the bottom margin of the envelope, by default (with a preference to place it above the address where it used to be in previous versions).
+<li>Re-instated the system "Services" provided by Snail Mail (missing in action since version 0.5).
+<li>The preferences to hide the country of the delivery address is same as return address country now works correctly for printing multiple envelopes instead of following whatever the hiding behaviour was for the first envelope.
+<li>If the user does not have permissions to install the Address Book plug-in globally, it now gets installed for the current user only.
+<li>If the Address Book plug-in fails to install (both globally and user-only), an error dialogue is displayed.
+<li>If the plug-in fails to launch the application, an error dialogue is displayed (plug-in can be updated by removing and re-installing using the command the application's "File" menu).
+<li>The license toolbar item (for unregistered instances) has been removed.  Registration can still be managed using the command in the "Snail Mail" menu.
+<li>Fixed a bug which could prevent the "Text Attributes" and "Paste Address" items from appearing in the toolbar.
+<li>Now allows the standard user customisation of the toolbar.
+<li>Terminology clarified by changing "Addressee" to "Delivery Address" in user interface and documentation.
+</ul>
+
+</body>
+</html>

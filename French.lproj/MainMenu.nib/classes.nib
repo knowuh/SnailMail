@@ -1,0 +1,127 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                clearSearchField = id; 
+                deselectAll = id; 
+                editInAddressBook = id; 
+                selectInAddressBook = id; 
+            }; 
+            CLASS = ABPeoplePickerView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = FieldLayoutTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NKDBarcodeImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }, 
+        {CLASS = NKDBarcodeOffscreenView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                copyFromAddressee = id; 
+                envelopeProfilesCancel = id; 
+                envelopeProfilesDelete = id; 
+                envelopeProfilesNew = id; 
+                envelopeProfilesOkay = id; 
+                goPayPal = id; 
+                hideFromCountryClicked = id; 
+                hideToCountryClicked = id; 
+                installAddressBookPlugin = id; 
+                invokeAddressBook = id; 
+                invokeLicenseWindow = id; 
+                invokeMarginsWindow = id; 
+                invokePrefsWindow = id; 
+                invokeTextAttributesWindow = id; 
+                licenseNotYet = id; 
+                licenseOK = id; 
+                marginsApply = id; 
+                marginsCancel = id; 
+                marginsDefault = id; 
+                marginsOkay = id; 
+                pasteToAddressee = id; 
+                prefsCancel = id; 
+                prefsOkay = id; 
+                printEnvelope = id; 
+                printImmediately = id; 
+                printSelected = id; 
+                removeAddressBookPlugin = id; 
+                runPageLayout = id; 
+                textAttributesCancel = id; 
+                textAttributesOkay = id; 
+                toggleMarginGuidelines = id; 
+            }; 
+            CLASS = SnailMailController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addressBookPluginMenuItem = NSMenuItem; 
+                backgroundView = NSTextView; 
+                barcodePopup = NSPopUpButton; 
+                barcodePositionSwitch = NSButton; 
+                controlWindow = NSWindow; 
+                envelopeProfilePopup = NSPopUpButton; 
+                envelopeProfilesCancelButton = NSButton; 
+                envelopeProfilesDeleteButton = NSButton; 
+                envelopeProfilesNewButton = NSButton; 
+                envelopeProfilesOKButton = NSButton; 
+                envelopeProfilesTable = NSTableView; 
+                envelopeProfilesWindow = NSWindow; 
+                envelopeWindow = NSWindow; 
+                fromAttributesView = NSTextView; 
+                fromGroupPopup = NSPopUpButton; 
+                fromPopup = NSPopUpButton; 
+                fromPrefixField = NSTextField; 
+                fromSuffixField = NSTextField; 
+                fromSwapNamesSwitch = NSButton; 
+                fromTypePopup = NSPopUpButton; 
+                fromView = NSTextView; 
+                hideFromCompanySwitch = NSButton; 
+                hideFromCountrySwitch = NSButton; 
+                hideFromJobSwitch = NSButton; 
+                hideFromNameSwitch = NSButton; 
+                hideFromPrefixSwitch = NSButton; 
+                hideFromSameCountrySwitch = NSButton; 
+                hideFromSuffixSwitch = NSButton; 
+                hideFromTitleSwitch = NSButton; 
+                hideToCompanySwitch = NSButton; 
+                hideToCountrySwitch = NSButton; 
+                hideToJobSwitch = NSButton; 
+                hideToNameSwitch = NSButton; 
+                hideToPrefixSwitch = NSButton; 
+                hideToSameCountrySwitch = NSButton; 
+                hideToSuffixSwitch = NSButton; 
+                hideToTitleSwitch = NSButton; 
+                licenseExplainationField = NSTextField; 
+                licenseNotYetButton = NSButton; 
+                licenseRegoNum = NSTextField; 
+                licenseWindow = NSWindow; 
+                licenseeEmail = NSTextField; 
+                localCountryNamesView = NSTextView; 
+                marginApplyButton = NSButton; 
+                marginCancelButton = NSButton; 
+                marginDefaultButton = NSButton; 
+                marginFromBottomField = NSTextField; 
+                marginFromLeftField = NSTextField; 
+                marginFromRightField = NSTextField; 
+                marginFromTopField = NSTextField; 
+                marginGuidelinesMenuItem = NSMenuItem; 
+                marginToBottomField = NSTextField; 
+                marginToLeftField = NSTextField; 
+                marginToRightField = NSTextField; 
+                marginToTopField = NSTextField; 
+                marginsWindow = NSWindow; 
+                overrideRestrictForNoMatchSwitch = NSButton; 
+                peoplePicker = ABPeoplePickerView; 
+                prefsWindow = NSWindow; 
+                printableView = NSView; 
+                restrictLabelField = NSTextField; 
+                textAttributesWindow = NSWindow; 
+                toAttributesView = NSTextView; 
+                toPrefixField = NSTextField; 
+                toSuffixField = NSTextField; 
+                toSwapNamesSwitch = NSButton; 
+                toView = NSTextView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

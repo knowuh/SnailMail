@@ -1,0 +1,35 @@
+/* Localized versions of strings not in the nib files */
+
+InstallPlugin = "Installer le plug-in du Carnet d'adresses";
+PluginInstalled = "Plug-In installé";
+PluginInstalledExp = "Le plug-in du Carnet d'adresses a été installé et sera disponible après redémarrage du Carnet d'adresses.\n\nCliquez le menu déroulant d'étiquette à côté d'un adresse postale dans le Carnet d'adresses pour accéder à la commande 'Imprimer enveloppe Snail Mail(Print Snail Mail Envelope)'.";
+PluginInstallFailed = "L'installation du plug-In n'a pas réussi";
+PluginInstallFailedExp = "Le plug-in du Carnet d'adresses n'a pas pu être installé.\n\nVérifiez les permissions d'écriture pour les dossiers '/Bibliothèque/Address Book Plug-Ins' ou '~/Bibliothèque/Address Book Plug-Ins'.";
+RemovePlugin = "Retirer le plug-in du Carnet d'adresses";
+PluginRemoved = "Plug-In retiré";
+PluginRemovedExp = "Le plug-in du Carnet d'adresses a été retiré et la commande 'Imprimer enveloppe Snail Mail' ne sera plus disponible dans le Carnet d'adresses.";
+AddressBook = "Carnet d'adresses";
+CopyAddress = "Copier adresse";
+PasteAddress = "Coller adresse";
+TextAttributes = "Attributs de texte";
+Search = "Rechercher";
+Unregistered = "PAS ENREGISTRÉ";
+Registered = "Registered";
+RegisteredExplaination = "This software is registered to the email address below.";
+ServiceTextToEnvelope = "Snail Mail/Texte sélectionné vers enveloppe Snail Mail";
+ServiceTextFromEnvelope = "Snail Mail/Texte de l'enveloppe Snail Mail vers document en cours";
+ServicePrintEnvelopeWithText = "Snail Mail/Texte sélectionné vers Imprimer Snail Mail";
+NoGroup = "(Tout)";
+OK = "OK";
+Cancel = "Annuler";
+Quit = "Quitter";
+InvalidMargins = "Marges non valides";
+FromLeftRightBad = "Les marges gauche et droite de l'adresse de retour dépassent la largeur de papier sélectionnée.";
+FromTopBottomBad = "Les marges haute et basse de l'adresse de retour dépassent la hauteur de papier sélectionnée.";
+ToLeftRightBad = "Les marges gauche et droite de l'adresse d'envoi dépassent la largeur de papier sélectionnée.";
+ToTopBottomBad = "Les marges haute et basse de l'adresse d'envoi dépassent la hauteur de papier sélectionnée.";
+MissingFormatsFileTitle = "Fichier de formats manquant";
+MissingFormatsFileExp = "Le fichier de formats du Carnet d'adresses est manquant.  Snail Mail a besoin de ce fichier pour déterminer comment l'adresse de chaque pays doit être formattée.";
+AddressPrefix = "Préfix d'adresse";
+AddressSuffix = "Suffix d'adresse";
+Default = "Défaut";

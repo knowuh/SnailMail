@@ -1,0 +1,18 @@
+¥  When using custom paper sizes does not remember orientation (frank@tansey.net).
+¥  County field (UK Addresses) is not formatted using "Text Attributes" feature for 1 user.  Add to list of known fields?  OR  Make unknown fields use attributes of previous fields?
+¥  CMD+ & CMD- keys to increase/decrease font sizes?
+¥  Option to put Company before Person name (instead of Person name before Company).
+¥  Add "Department" field from address book to be included in the addresses.
+¥  Option to include spouse for return and/or delivery address (eg, Mr Nik & Mrs Heidi Sands).
+¥  Group table column width should resize after pane width resized at launch time
+
+¥  Bindings for all preferences and buttons?
+
+¥  Option to hide person name ONLY if the record is a company (not a person) (guntis@baznica.lv)
+¥  Clicking people picker field other than address raises exception (should pick first address for clicked record?)
+¥  Auxillary view (ABPeoplePicker) could be used for some common preferences (eg, field hiding, as suggested by guntis@baznica.lv)
+¥  Improve Text Attributes icon (guntis@baznica.lv)
+¥  Do NOT remove blank lines from prefixes or suffixes (addressStringForAddressDict) (schwie@yahoo.com)
+
+¥  ronaldpr@xs4all.nl
+I have four profiles. In preferences I have set for two profiles the return address to "My card" and for the other two profiles a have set it to a group (with only one address in it). Switching from a profile that uses my card for the return address to a profile that uses the group for the return address will change the return address as expected. However, changing from a profile hat uses the group for the return address to a profile that uses my card for the return address, never changes the return address. I need to open the preferences window (where the choice is correctly shown in the popup menu) and click "Okay" to have the return address change.

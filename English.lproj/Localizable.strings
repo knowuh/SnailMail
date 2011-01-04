@@ -1,0 +1,35 @@
+/* Localized versions of strings not in the nib files */
+
+InstallPlugin = "Install Address Book Plug-In";
+PluginInstalled = "Plug-In Installed";
+PluginInstalledExp = "The Address Book plug-in has been installed and will be available after the Address Book application has been re-launched.\n\nClick the label roll-over menu next to any postal address in the Address Book to access the 'Print Snail Mail Envelope' command.";
+PluginInstallFailed = "Plug-In Install Failed";
+PluginInstallFailedExp = "The Address Book plug-in could not be installed.\n\nCheck for write permissions on '/Library/Address Book Plug-Ins' or '~/Library/Address Book Plug-Ins'.";
+RemovePlugin = "Remove Address Book Plug-In";
+PluginRemoved = "Plug-In Removed";
+PluginRemovedExp = "The Address Book plug-in has been removed and the 'Print Snail Mail Envelope' command will no longer be available in the Address Book.";
+AddressBook = "Address Book";
+CopyAddress = "Copy Address";
+PasteAddress = "Paste Address";
+TextAttributes = "Text Attributes";
+Search = "Search";
+Unregistered = "UNREGISTERED!";
+Registered = "Registered";
+RegisteredExplaination = "This software is registered to the email address below.";
+ServiceTextToEnvelope = "Snail Mail/Selected Text to Snail Mail Envelope";
+ServiceTextFromEnvelope = "Snail Mail/Snail Mail Envelope Text to Current Document";
+ServicePrintEnvelopeWithText = "Snail Mail/Selected Text to Snail Mail Print";
+NoGroup = "(All)";
+OK = "Okay";
+Cancel = "Cancel";
+Quit = "Quit";
+InvalidMargins = "Invalid Margins";
+FromLeftRightBad = "The return address left and right margins exceed the current paper width.";
+FromTopBottomBad = "The return address top and bottom margins exceed the current paper height.";
+ToLeftRightBad = "The delivery address left and right margins exceed the current paper width.";
+ToTopBottomBad = "The delivery address top and bottom margins exceed the current paper height.";
+MissingFormatsFileTitle = "Missing Formats File";
+MissingFormatsFileExp = "The Address Book's formats file appears to be missing.  Snail Mail requires this file to determine how each country's address should be formatted.";
+AddressPrefix = "Address Prefix";
+AddressSuffix = "Address Suffix";
+Default = "Default";

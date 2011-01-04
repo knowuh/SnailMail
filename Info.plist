@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Snail Mail</string>
+	<key>CFBundleIconFile</key>
+	<string>SnailMail</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.nixanz.snailmail</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.8</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Snail Mail</string>
+	<key>NSServices</key>
+	<array>
+		<dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Snail Mail/Selected Text to Snail Mail Print</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>printWithText</string>
+			<key>NSPortName</key>
+			<string>Snail Mail</string>
+			<key>NSSendTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+		</dict>
+		<dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Snail Mail/Snail Mail Envelope Text to Current Document</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>textFromEnvelope</string>
+			<key>NSPortName</key>
+			<string>Snail Mail</string>
+			<key>NSReturnTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+		</dict>
+		<dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Snail Mail/Selected Text to Snail Mail Envelope</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>textToEnvelope</string>
+			<key>NSPortName</key>
+			<string>Snail Mail</string>
+			<key>NSSendTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

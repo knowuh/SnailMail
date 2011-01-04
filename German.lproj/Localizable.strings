@@ -1,0 +1,35 @@
+/* Localized versions of strings not in the nib files */
+
+InstallPlugin = "Adressbuch Plug-In installieren";
+PluginInstalled = "Plug-In installiert";
+PluginInstalledExp = "Das Adressbuch Plug-In wurde installiert und kann benutzt werden, sobald Sie Adressbuch wieder gestartet haben.\n\nKlicken Sie auf das label roll-over menu neben der Adresse im Adressbuch, um das Kommando 'Drucke Snail-Mail Umschlag' zu benutzen..";
+PluginInstallFailed = "Plug-In Installation fehgeschlagen";
+PluginInstallFailedExp = "Das Adressbuch Plug-In konnte nicht installiert werden..\n\nVielleicht liegt es an den Zugriffsrechten auf  '/Library/Address Book Plug-Ins' oder '~/Library/Address Book Plug-Ins'.";
+RemovePlugin = "Adressbuch Plug-In entfernen";
+PluginRemoved = "Plug-In entfernt";
+PluginRemovedExp = "Das Adressbuch Plug-In wurde entfernt. Das 'Drucke SnailMail Umschlag'-Kommando kann im Adressbuch deshalb nicht mehr benutzt werden..";
+AddressBook = "Adressbuch";
+CopyAddress = "Adresse Kopieren";
+PasteAddress = "Adresse einsetzen";
+TextAttributes = "Text Attribute";
+Search = "Suchen";
+Unregistered = "Unlizensiert";
+Registered = "Registriert";
+RegisteredExplaination = "Dieses Programmm ist unter dieser Email-Adresse registriert.";
+ServiceTextToEnvelope = "Snail Mail/Ausgewählter Text zu Snail Mail Umschlag";
+ServiceTextFromEnvelope = "Snail Mail/Snail Mail Umschlag Text zum aktiven Dokument";
+ServicePrintEnvelopeWithText = "Snail Mail/Ausgewählter Text zum Snail Mail Druck-Kommando";
+NoGroup = "(Alle)";
+OK = "Okay";
+Cancel = "Zurück";
+Quit = "Beenden";
+InvalidMargins = "Falsche Randeinstellungen";
+FromLeftRightBad = "Die linken und rechten Ränder der Absender-Adresse sind zu breit für das Papierformat.";
+FromTopBottomBad = "Die oberen und unteren Ränder der Absender-Adresse sind zu hoch für das Papierformat.";
+ToLeftRightBad = "Die linken und rechten Ränder der Empfänger-Adresse sind zu breit für das Papierformat.";
+ToTopBottomBad = "Die oberen und unteren Ränder der Empfänger-Adresse sind zu hoch für das Papierformat.";
+MissingFormatsFileTitle = "Die Formatierungsdatei fehlt";
+MissingFormatsFileExp = "Die Formatierungsdatei des Adressbuches fehlt. Snail Mail braucht diese Datei für die Formatierung der Länderadressen.";
+AddressPrefix = "Adressen Prefix";
+AddressSuffix = "Adressen Suffix";
+Default = "Grundeinstellung";
