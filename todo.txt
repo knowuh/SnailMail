@@ -1,3 +1,14 @@
+
+Setup Git Project:
+* Check existing licenses, get permissions to use sources.
+* Reorganize folders
+* Add  MIT license
+* New structure
+* source/
+* resources/
+* resources/images
+* documentation
+User requests:
 ¥  When using custom paper sizes does not remember orientation (frank@tansey.net).
 ¥  County field (UK Addresses) is not formatted using "Text Attributes" feature for 1 user.  Add to list of known fields?  OR  Make unknown fields use attributes of previous fields?
 ¥  CMD+ & CMD- keys to increase/decrease font sizes?
