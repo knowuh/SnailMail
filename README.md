@@ -10,17 +10,17 @@ priting limitiations in the Address Book.
 
 
 ## History ##
-Snail Mail was originally developed by Nik Sands <nixanz@nixanz.com>, for the office of Mr David Lloyd, at a time when there were no other envelope printing applications available.
+Snail Mail was originally developed by Nik Sands, for the office of Mr David Lloyd, at a time when there were no other envelope printing applications available.
 
 Nik's other software efforts can be found at <http://nixanz.com/>
 
 ## Credits ##
 
-* Snail Mail Software written by Nik Sanz <nixanz@nixanz.com>
-* NKDBarcode Barcode Library by Jeff LaMarche <jeff_lamarche@mac.com>
+* Snail Mail Software written by Nik Sanz
+* NKDBarcode Barcode Library by Jeff LaMarche
 * Application icon by Dave Hill
 * Toolbar icons by Dave Hossack
-* githubification by Noah Paessel <knowuh@gmail.com>
+* githubification by Noah Paessel
 
 ## License ##
 NKDBarcode sourcecode &copy; 2002 Jeff LaMarche and Naked Software.
