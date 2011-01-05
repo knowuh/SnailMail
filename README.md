@@ -1,6 +1,6 @@
 ## Description ##
-Snail Mail is envelope and label priting software for OS X's "Address Book". It attempts to address known
-priting limitiations in the Address Book.
+Snail Mail is a stand-alone Mac OS X Envelope Addressing application, which integrates with the Mac OS X Address Book.
+It attempts to address known priting limitiations of the OS X system Address Book.
 
 ## Features: ##
 
@@ -16,7 +16,7 @@ Nik's other software efforts can be found at <http://nixanz.com/>
 
 ## Credits ##
 
-* Snail Mail Software written by Nik Sanz
+* Snail Mail Software written by Nik Sands
 * NKDBarcode Barcode Library by Jeff LaMarche
 * Application icon by Dave Hill
 * Toolbar icons by Dave Hossack
@@ -24,7 +24,7 @@ Nik's other software efforts can be found at <http://nixanz.com/>
 
 ## License ##
 NKDBarcode sourcecode &copy; 2002 Jeff LaMarche and Naked Software.
-All other source Copyright &copy; 2011 Nik Sanz
+All other source Copyright &copy; 2011 Nik Sands
 
 Except where noted, the source to Snail Mail is distributed under the
 [MIT license](http://www.opensource.org/licenses/mit-license.php).
