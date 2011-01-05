@@ -4,3 +4,4 @@ intermediate/*
 *.pbxuser
 *.mode*
 *.perspective*
+private
