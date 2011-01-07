@@ -1,23 +1,26 @@
-// -----------------------------------------------------------------------------------
-//  NKDPostnetBarcode.m
-// -----------------------------------------------------------------------------------
-//  Created by Jeff LaMarche on Sun May 05 2002.
-//  ©2002 Naked Software. All rights reserved.
-// -----------------------------------------------------------------------------------
-// THIS	SOURCE CODE IS PROVIDED AS-IS WITH NO WARRANTY OF ANY KIND
-// -----------------------------------------------------------------------------------
-// You may use and redistribute this source code with the following limitations
-//
-// 1) Any redistribution must contain all original comments, including this license.
-//    Any changes you make must be wrapped in comments explaining what you did and
-//    why and also contain your e-mail address. You should also send a copy of the
-//    modified source code file to jeff_lamarche@mac.com
-// 2) You may not charge for the source code. If you wish to distribute this source
-//    code as part of a larger collection, please contact the author directly.
-// 3) You may distribute compiled software that uses this source code without any
-//    restrictions or limitations. A mention in the about box or documentation is
-//    appreciated.
-// -----------------------------------------------------------------------------------
+/*
+ Copyright (c) 2002 Jeff LaMarche
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ */
+
+
 #import "NKDPostnetBarcode.h"
 
 

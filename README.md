@@ -23,24 +23,24 @@ Nik's other software efforts can be found at <http://nixanz.com/>
 * githubification by Noah Paessel
 
 ## License ##
-NKDBarcode sourcecode &copy; 2002 Jeff LaMarche and Naked Software.
-All other source Copyright &copy; 2011 Nik Sands
+Original Source Copyright &copy; 2011 Nik Sands
+Original NKDBarcode sourcecode &copy; 2002 Jeff LaMarche and Naked Software.
 
-Except where noted, the source to Snail Mail is distributed under the
+As of Jan 4 2011 all of Snail Mail's has been opened, and is distributed under the
 [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
 
 ## Known issues ##
 
-* Changing selection of "to" address doesn't update envelope when another address for the same person record was previously selected. 
-  * Work around is to select an address for another person then select the address original person.
-  * This is a bug in Apple's Address Book API in Mac OS X 10.3, and is fixed in Mac OS X 10.4 (Tiger).
+For a current list of issues, or to report a new issue, see: https://github.com/knowuh/SnailMail/issues
+
+Open Issues As of Version 1.8:
+
 * Searching only works for begining of names or begining of Town, not for any other fields or for characters elsewhere in names/towns.
   * The searching is using Apple's API which is not modifiable within the view being used.
-  * A more advanced search algorithm is possible using part of Apple's API, but cannot be done with the search field attached to the address list view (and if done from another search field, results cannot be placed in the Apple API's address list view). 
-* When searching causes the address selection to change, the envelope is not updated.
-  * The work around is to click another person, then click back on the address desired.
-  * If there is only one person in the search results, the above work around cannot be used.  Clicking the single person/address does not help (Apple also provides no way to detect a single click on a record with this API view).
+  * A more advanced search algorithm is possible using part of Apple's API, but cannot be done with the search field attached to the address list view (and if done from another search field, results cannot be placed in the Apple API's address list view).
+* Changing selection of "to" address doesn't update envelope when another address for the same person record was previously selected. 
+  * Work around is to select an address for another person then select the address original person.
   * This is a bug in Apple's Address Book API in Mac OS X 10.3, and is fixed in Mac OS X 10.4 (Tiger).
 
 ## Todo List##
