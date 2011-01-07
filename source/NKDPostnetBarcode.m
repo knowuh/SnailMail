@@ -109,7 +109,7 @@
                 andBar:(int)bar
 // -----------------------------------------------------------------------------------
 {
-    char *	barcode = (char *) [content lossyCString];
+    char *	barcode = (char *) [content dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
     char	check;
 
     check = (index >= strlen(barcode)) ? checkDigit : barcode[index];
@@ -226,7 +226,7 @@
 -(void)generateChecksum
 // -----------------------------------------------------------------------------------
 {
-    char *	code = (char *)[[self content] lossyCString];
+    char *	code = (char *)[[self content] dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
     int		i, sum=0;
 
     for (i = 0; i < strlen(code); i++)

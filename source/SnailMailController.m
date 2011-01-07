@@ -100,6 +100,7 @@
 	
     toolbar = [[NSToolbar alloc] initWithIdentifier:@"mainToolbar"];
     [toolbar setDelegate:self];
+
 	[toolbar setAllowsUserCustomization:YES];
 	[toolbar setAutosavesConfiguration:YES];
     [controlWindow setToolbar:[toolbar autorelease]];
@@ -1012,7 +1013,7 @@
 		
 		[self setProfileNames:[[[newProfiles allKeys] sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)] mutableCopy]];
 		[envelopeProfilesTable reloadData];
-		[envelopeProfilesTable selectRow:[profileNames indexOfObject:name] byExtendingSelection:NO];
+		[envelopeProfilesTable selectRowIndexes:[NSIndexSet indexSetWithIndex:[profileNames indexOfObject:name]] byExtendingSelection:NO];
     }
 }
 
@@ -1173,7 +1174,7 @@
 			[newProfiles setObject:[currentEnvelopeProfile copy] forKey:@""];
 			[profileNames addObject:@""];
 			[envelopeProfilesTable reloadData];
-			[envelopeProfilesTable selectRow:([profileNames count] - 1) byExtendingSelection:NO];
+			[envelopeProfilesTable selectRowIndexes:[NSIndexSet indexSetWithIndex:([profileNames count] - 1)] byExtendingSelection:NO];
 			[envelopeProfilesTable editColumn:0 row:([profileNames count] - 1) withEvent:nil select:YES];
 			[envelopeProfilesOKButton setEnabled:NO];
 			[envelopeProfilesNewButton setEnabled:NO];
@@ -1943,7 +1944,7 @@
 		[self hideMargins];
 
     NSPrintOperation *printOp = [NSPrintOperation printOperationWithView:printableView printInfo:printInfo];
-	[printOp setShowPanels:NO];
+	[printOp setShowsProgressPanel:NO];
     [printOp runOperation];
 	
 	if ( ! [[NSUserDefaults standardUserDefaults] boolForKey:@"hide_margin_guides"] )
@@ -2199,8 +2200,7 @@
     {
 		return [profileNames count];
     }
-	
-	return nil;
+	return 0;
 }
 
 - (id)tableView:(NSTableView *)aTableView

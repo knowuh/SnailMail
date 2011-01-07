@@ -8,7 +8,7 @@
 #import "FieldLayoutTextView.h"
 
 
-@interface SnailMailController : NSObject
+@interface SnailMailController : NSObject <NSToolbarDelegate>
 {
 	IBOutlet NSMenuItem *addressBookPluginMenuItem;
     IBOutlet NSView *printableView;
