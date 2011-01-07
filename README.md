@@ -1,6 +1,12 @@
 ## Description ##
-Snail Mail is a stand-alone Mac OS X Envelope Addressing application, which integrates with the Mac OS X Address Book.
-It attempts to address known priting limitiations of the OS X system Address Book.
+
+Snail Mail is an envelope addressing and printing application which interacts directly with the Address Book database in Mac OS X.
+
+Snail Mail's primary function is to quickly address and print single or multiple envelopes based on entries in the Mac OS X Address Book database, but it also allows ad-hoc manual entry of addresses directly onto the envelope.
+
+Batches of envelopes can be based on Address Book groups, or ad-hoc selections of addresses. Snail Mail can print USPS barcodes for more efficient mail handling. Snail Mail provides for different default text attributes (font, colour, etc) for different parts of the address.
+Snail Mail also includes a Plugin for Mac OS X's Address Book application so that you can choose to print Snail Mail envelopes directly from the Address Book, and uses Mac OS X 'services' to print any selected text from any other application to an envelope quickly and easily.
+
 
 If you are looking for a pre-built binary, try the [github download page](https://github.com/knowuh/SnailMail/downloads).
 
