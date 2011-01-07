@@ -32,7 +32,7 @@ As of Jan 4 2011 all of Snail Mail's has been opened, and is distributed under t
 
 ## Known issues ##
 
-For a current list of issues, or to report a new issue, see: https://github.com/knowuh/SnailMail/issues
+For a current list of issues, or to report a new issue, see the [github issue page](https://github.com/knowuh/SnailMail/issues)
 
 Open Issues As of Version 1.8:
 
