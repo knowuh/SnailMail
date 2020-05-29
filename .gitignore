@@ -5,3 +5,5 @@ intermediate/*
 *.mode*
 *.perspective*
 private
+Snail Mail.xcodeproj/xcuserdata/godfrey.xcuserdatad
+Snail Mail.xcodeproj/project.xcworkspace
