@@ -49,7 +49,6 @@
 		B232F36512D402A900919C63 /* SnailMailPlugin-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B232F36112D402A900919C63 /* SnailMailPlugin-Info.plist */; };
 		B232F36612D402A900919C63 /* version.plist in Resources */ = {isa = PBXBuildFile; fileRef = B232F36212D402A900919C63 /* version.plist */; };
 		DD75E6F906560174007C8C66 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = DD75E67C0655F5DC007C8C66 /* Help */; };
-		DD846F6309B39D0E002F54B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD846F6209B39D0E002F54B4 /* Localizable.strings */; };
 		DDB0BD6F064B46BB00118B48 /* Snail Mail_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* Snail Mail_Prefix.pch */; };
 		DDB0BE78064B4BDC00118B48 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB0BE77064B4BDC00118B48 /* AddressBook.framework */; };
 		DDB0BE79064B4BDC00118B48 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB0BE77064B4BDC00118B48 /* AddressBook.framework */; };
@@ -85,6 +84,7 @@
 		32CA4F630368D1EE00C91783 /* Snail Mail_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Snail Mail_Prefix.pch"; sourceTree = "<group>"; };
 		560876822480B2B6006770EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		560876832480B524006770EB /* infoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = infoPlist.strings; path = resources/infoPlist.strings; sourceTree = "<group>"; };
+		56C8A3772480E2090079E6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Snail Mail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snail Mail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B232F30B12D4008700919C63 /* ABPersonAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABPersonAdditions.h; path = source/ABPersonAdditions.h; sourceTree = "<group>"; };
 		B232F30C12D4008700919C63 /* AddressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressManager.h; path = source/AddressManager.h; sourceTree = "<group>"; };
@@ -406,7 +406,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
-				DD846F6309B39D0E002F54B4 /* Localizable.strings in Resources */,
 				DD75E6F906560174007C8C66 /* Help in Resources */,
 				560876842480B524006770EB /* infoPlist.strings in Resources */,
 				DDC87A3F065B73AF00F56F34 /* SnailMailPlugin.bundle in Resources */,
@@ -489,6 +488,7 @@
 				DD846F5E09B39CFF002F54B4 /* English */,
 				DD846F6509B39D1B002F54B4 /* German */,
 				DD846F6409B39D18002F54B4 /* French */,
+				56C8A3772480E2090079E6D0 /* Base */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
